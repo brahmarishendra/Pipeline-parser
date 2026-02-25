@@ -69,6 +69,9 @@ results are displayed in a clean, modern card featuring: - SVG Mini-map: A live 
 the submitted pipeline. - Detailed Stats: Node count, edge count, and DAG status. - Intuitive
 Feedback: Color-coded results (success/error) and helpful descriptions.
 
+### front-end UI application will run port on 3000
+### Fast API will run on Port http://127.0.0.1:8000 so you can Test API on PostMan  using GET Method
+
 ### Step 5: Use the App
 - Wait for the **Loading Screen** to disappear.
 - Drag and drop nodes onto the canvas.
