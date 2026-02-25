@@ -53,7 +53,9 @@ The frontend is the visual part where you build your pipelines.
 - Drag and drop nodes onto the canvas.
 - Connect them using the handles on the sides.
 - Click **Submit Pipeline** to see if your graph is valid (a "DAG") or if it has cycles.
-- ![Uploading image.png…]()
+-
+<img width="1886" height="878" alt="image" src="https://github.com/user-attachments/assets/06cae78f-4385-4d22-bb0a-0a5a716bbaa7" />
+
 
 
 Enjoy building! 🚀
