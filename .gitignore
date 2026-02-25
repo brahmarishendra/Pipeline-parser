@@ -1,0 +1,31 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+venv/
+ENV/
+
+# Production
+build/
+dist/
+target/
+
+# Testing
+coverage/
+
+# OS/Misc
+.DS_Store
+*.log
+.env
+.env.*
+!.env.example
+
+# Assignment instructions (optional, usually kept or ignored depending on preference)
+# *.pdf

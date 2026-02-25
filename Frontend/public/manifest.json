@@ -1,0 +1,25 @@
+{
+  "short_name": "React App",
+  "name": "Create React App Sample",
+  "icons": [
+    {
+      "src": "https://bookface-images.s3.amazonaws.com/logos/76bb61759ffa17ef0d921fea6f331e1ab42b93f1.png?1684534984",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/png"
+    },
+    {
+      "src": "https://bookface-images.s3.amazonaws.com/logos/76bb61759ffa17ef0d921fea6f331e1ab42b93f1.png?1684534984",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "https://bookface-images.s3.amazonaws.com/logos/76bb61759ffa17ef0d921fea6f331e1ab42b93f1.png?1684534984",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
