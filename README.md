@@ -7,6 +7,9 @@ backend-integrated validation.
 I added new nodes to the project: - fileNode - noteNode - logicNode - integrationNode -
 promptNode
 
+<img width="1911" height="1079" alt="image" src="https://github.com/user-attachments/assets/01c7f308-2f3b-48a8-ad15-6f396cc86759" />
+
+
 ### Prerequisites
 Make sure you have **Node.js** and **Python** installed.
 
@@ -47,8 +50,26 @@ The frontend is the visual part where you build your pipelines.
    *The app should automatically open in your browser at http://localhost:3000*
 
 ---
+### 3. Dynamic Text Node Logic
+The TextNode.js was enhanced with advanced interactive features: - Auto-resizing: Text areas
+dynamically adjust height as the user types, ensuring content is always visible. - Variable
+Detection: Uses regex to identify {{variable_name}} patterns in real-time. - Dynamic Handle
+Generation: Automatically adds target handles on the left side for every unique variable
+detected in the text.
 
-### Step 3: Use the App
+### 4. UI/UX & Styling Enhancements
+The application underwent a significant visual overhaul to provide a premium feel: - Custom
+CSS Engine: Implemented in ModifiedStyle.css using CSS variables for high-performance
+styling. - Interactive Toolbar: A scrollable, category-based navbar and toolbar for easy node
+access. - "Run" Workflow UX: for Instead of submit button i perfromed changes in button name
+as Run Workflow {Run Button}. (Because Run is more relavant to user and That the user can
+understand easily and if we trigger the workflow we get the output Like: DAG is valid or not, if not
+then we get the error message) As per better UX. - ResultModal.js: Instead of basic alerts,
+results are displayed in a clean, modern card featuring: - SVG Mini-map: A live visualization of
+the submitted pipeline. - Detailed Stats: Node count, edge count, and DAG status. - Intuitive
+Feedback: Color-coded results (success/error) and helpful descriptions.
+
+### Step 5: Use the App
 - Wait for the **Loading Screen** to disappear.
 - Drag and drop nodes onto the canvas.
 - Connect them using the handles on the sides.
